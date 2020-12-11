@@ -6,19 +6,19 @@ let leashDog = (dogName, dogBreed) => {
   console.log(`Leash ${dogName} the ${dogBreed}`)
   return `Leash ${dogName} the ${dogBreed}`
 }
-walkToPark = (dogName, dogBreed) => {
+let walkToPark = (dogName, dogBreed) => {
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
-throwFrisbee = (dogName, dogBreed) => {
+let throwFrisbee = (dogName, dogBreed) => {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`)
   return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
-walkHome = (dogName, dogBreed) => {
+let walkHome = (dogName, dogBreed) => {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return `Walk home with ${dogName} the ${dogBreed}`
 }
-unleashDog = (dogName, dogBreed) => {
+let unleashDog = (dogName, dogBreed) => {
   console.log(`Unleash ${dogName} the ${dogBreed}`)
   return `Unleash ${dogName} the ${dogBreed}`
 }
