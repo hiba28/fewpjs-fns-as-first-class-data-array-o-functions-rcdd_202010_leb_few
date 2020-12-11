@@ -24,9 +24,5 @@ let unleashDog = (dogName, dogBreed) => {
 }
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName, dogBreed){
-  let arr =[]
-  for(i=0 ; i < routine.length ; i++){
-    arr.push(routine[i](dogName, dogBreed))
-  }
-  return arr
+  return routine.map(elem => elem(dogName, dogBreed))
 }
